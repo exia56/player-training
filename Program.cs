@@ -14,7 +14,7 @@ namespace training
       if (files.Length != 0)
         do
         {
-          Console.WriteLine($"播放影片：{files[idx]}");
+          Console.WriteLine($"播放影片：{files[idx]}, 序列：{idx + 1}");
           idx++;
           Console.WriteLine("使用播放器2來播放影片");
           Console.WriteLine("播放器2開始播放影片");
