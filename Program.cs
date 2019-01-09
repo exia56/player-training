@@ -15,8 +15,8 @@ namespace training
         input = Console.ReadLine();
         if (input.Equals("exit")) continue;
         Console.WriteLine($"選擇播放的影片：{input}");
-        Console.WriteLine("使用播放器1來播放影片");
-        Console.WriteLine("播放器1開始播放影片");
+        Console.WriteLine("使用播放器2來播放影片");
+        Console.WriteLine("播放器2開始播放影片");
         Console.WriteLine("播放中～～～");
         Thread.Sleep(3000);
         Console.WriteLine("播放完畢～釋放資源");
